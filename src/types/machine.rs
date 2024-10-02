@@ -11,7 +11,7 @@ pub struct Metadata {
 	#[serde(alias = "msg_sender")]
 	pub sender: Address,
 	pub block_number: u64,
-	pub timestamp: u64,
+	// pub timestamp: u64,
 }
 
 #[derive(Serialize, Deserialize, Debug, Copy, Clone, PartialEq)]
