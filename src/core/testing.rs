@@ -344,7 +344,7 @@ where
 			input_index: self.env.get_input_index().await,
 			sender,
 			block_number: self.env.get_input_index().await,
-			timestamp: UNIX_EPOCH.elapsed().unwrap().as_secs(),
+			// timestamp: UNIX_EPOCH.elapsed().unwrap().as_secs(),
 		};
 
 		let (status, error) = match self.mockup_options.portal_config {
@@ -403,7 +403,7 @@ where
 			input_index: self.env.get_input_index().await,
 			sender,
 			block_number: self.env.get_input_index().await,
-			timestamp: UNIX_EPOCH.elapsed().unwrap().as_secs(),
+			// timestamp: UNIX_EPOCH.elapsed().unwrap().as_secs(),
 		};
 
 		let (status, error) = match self
